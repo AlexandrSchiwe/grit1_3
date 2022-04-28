@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 100%;
+    grid-template-rows: 10vh;
+    border: 1px solid white;
+}
+
+aside {
+    border: 1px solid white;
+}
+
+main {
+    border: 1px solid white;
+    background-color: red;
+}
+
+div {
+    display: grid;
+    background-color: green;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 84vh;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5vh;
+    background-color: purple;
+    border: 1px solid white;
+}
